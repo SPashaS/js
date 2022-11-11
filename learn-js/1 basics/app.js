@@ -47,6 +47,22 @@
 // let x = 1 + (a *= 2); // a = 4; x = 5
 // console.log(a, x);
 
+// 5.3 Преобразование типов
+// Какой результат будет у выражений ниже?
+// console.log( typeof("" + 1 + 0) ); // '10'
+// console.log ( typeof("" - 1 + 0)); // Nan
+// console.log ( true + false) // 1
+// console.log(6 / "3"); // 2
+// console.log("2" * "3"); //6
+// console.log(4 + 5 + "px"); // '9px'
+// console.log("$" + 4 + 5); // '$45'
+// console.log("4" - 2); // 2
+// console.log("4px" - 2); // Nan
+// console.log("  -9  " + 5); // '  -95  5'
+// console.log("  -9  " - 5); // -14
+// console.log(null + 1); // 1
+// console.log(undefined + 1); // Nan
+// console.log(" \t \n" - 2); // -2
 
 // --------  6
 // --------  7
