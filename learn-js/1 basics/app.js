@@ -72,7 +72,16 @@
 // let b = prompt("Второе число?", 2);
 // alert(+a + +b); // 12
 
-// --------  6
+// --------  6 Операторы сравнения
+// 6.1 Каким будет результат этих выражений?
+// console.log(5 > 4); // true
+// console.log("ананас" > "яблоко"); //false
+// console.log("2" > "12"); //true
+// console.log(undefined == null); //true
+// console.log(undefined === null); //false
+// console.log(null == "\n0\n"); //false
+// console.log(null === +"\n0\n"); //false
+
 // --------  7
 // --------  8
 // --------  9
